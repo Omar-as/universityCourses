@@ -1,0 +1,7 @@
+# IntelliJ Build Results
+out/
+# IntelliJ Config
+.idea/
+*.iml
+# Nix-Direnv Cache
+.direnv/

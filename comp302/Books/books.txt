@@ -1,0 +1,2 @@
+book1 - Applying UML and Patterns: An introduction to Object-oriented Analysis and Design and Iterative Development, Third edition.
+book2 - Head First Design Patterns
