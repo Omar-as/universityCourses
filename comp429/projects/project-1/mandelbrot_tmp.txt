@@ -1,0 +1,170 @@
+P3
+1000 1000
+255
+@                                                                                                                                                     
+@                                                                                                                                                     
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v149)
+"   /scratch/users/oasaad20/COMP429-Project-1/mandelbrot
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 2060605
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 33554432
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Loading GCC 11...
+
+Running Job...!
+===============================================================================
+Running compiled binary...
+make: Entering directory `/scratch/users/oasaad20/COMP429-Project-1/mandelbrot'
+g++ -Wall -Werror -W -Wextra -DKUACC main.cpp mandelbrot.cpp -fopenmp -o ./cmp_files/mandelbrot
+g++ -Wall -Werror -W -Wextra -DKUACC main.cpp mandelbrot_dynamic1.cpp -fopenmp -o ./cmp_files/mandelbrot_dynamic1
+g++ -Wall -Werror -W -Wextra -DKUACC main.cpp mandelbrot_dynamic2.cpp -fopenmp -o ./cmp_files/mandelbrot_dynamic2
+g++ -Wall -Werror -W -Wextra -DKUACC main.cpp mandelbrot_dynamic3.cpp -fopenmp -o ./cmp_files/mandelbrot_dynamic3
+make: Leaving directory `/scratch/users/oasaad20/COMP429-Project-1/mandelbrot'
+===============================================================================
+                Running file mandelbrot/cmp_files/mandelbrot
+===============================================================================
+Parallel version with 1 threads
+Average Duration for zoom_in_test_mixed: 23685 ms
+Average Duration for zoom_in_test_all_white: 132 ms
+Average Duration for zoom_in_test_all_black: 127796 ms
+Average Duration for temp_zoom_in_mine: 65381 ms
+Parallel version with 2 threads
+Average Duration for zoom_in_test_mixed: 19705 ms
+Average Duration for zoom_in_test_all_white: 71 ms
+Average Duration for zoom_in_test_all_black: 65739 ms
+Average Duration for temp_zoom_in_mine: 38417 ms
+Parallel version with 4 threads
+Average Duration for zoom_in_test_mixed: 13722 ms
+Average Duration for zoom_in_test_all_white: 37 ms
+Average Duration for zoom_in_test_all_black: 33902 ms
+Average Duration for temp_zoom_in_mine: 21920 ms
+Parallel version with 8 threads
+Average Duration for zoom_in_test_mixed: 8164 ms
+Average Duration for zoom_in_test_all_white: 19 ms
+Average Duration for zoom_in_test_all_black: 17205 ms
+Average Duration for temp_zoom_in_mine: 11955 ms
+Parallel version with 16 threads
+Average Duration for zoom_in_test_mixed: 4400 ms
+Average Duration for zoom_in_test_all_white: 10 ms
+Average Duration for zoom_in_test_all_black: 8837 ms
+Average Duration for temp_zoom_in_mine: 6437 ms
+Parallel version with 32 threads
+Average Duration for zoom_in_test_mixed: 2596 ms
+Average Duration for zoom_in_test_all_white: 168 ms
+Average Duration for zoom_in_test_all_black: 7417 ms
+Average Duration for temp_zoom_in_mine: 4764 ms
+===============================================================================
+                Running file mandelbrot/cmp_files/mandelbrot_dynamic1
+===============================================================================
+Parallel version with 1 threads
+Average Duration for zoom_in_test_mixed: 23885 ms
+Average Duration for zoom_in_test_all_white: 256 ms
+Average Duration for zoom_in_test_all_black: 128126 ms
+Average Duration for temp_zoom_in_mine: 65509 ms
+Parallel version with 2 threads
+Average Duration for zoom_in_test_mixed: 12461 ms
+Average Duration for zoom_in_test_all_white: 271 ms
+Average Duration for zoom_in_test_all_black: 66205 ms
+Average Duration for temp_zoom_in_mine: 33958 ms
+Parallel version with 4 threads
+Average Duration for zoom_in_test_mixed: 6456 ms
+Average Duration for zoom_in_test_all_white: 332 ms
+Average Duration for zoom_in_test_all_black: 34198 ms
+Average Duration for temp_zoom_in_mine: 17608 ms
+Parallel version with 8 threads
+Average Duration for zoom_in_test_mixed: 3261 ms
+Average Duration for zoom_in_test_all_white: 210 ms
+Average Duration for zoom_in_test_all_black: 17190 ms
+Average Duration for temp_zoom_in_mine: 8840 ms
+Parallel version with 16 threads
+Average Duration for zoom_in_test_mixed: 1745 ms
+Average Duration for zoom_in_test_all_white: 269 ms
+Average Duration for zoom_in_test_all_black: 8961 ms
+Average Duration for temp_zoom_in_mine: 4653 ms
+Parallel version with 32 threads
+Average Duration for zoom_in_test_mixed: 1524 ms
+Average Duration for zoom_in_test_all_white: 401 ms
+Average Duration for zoom_in_test_all_black: 7104 ms
+Average Duration for temp_zoom_in_mine: 4089 ms
+===============================================================================
+                Running file mandelbrot/cmp_files/mandelbrot_dynamic2
+===============================================================================
+Parallel version with 1 threads
+Average Duration for zoom_in_test_mixed: 23573 ms
+Average Duration for zoom_in_test_all_white: 150 ms
+Average Duration for zoom_in_test_all_black: 127335 ms
+Average Duration for temp_zoom_in_mine: 65297 ms
+Parallel version with 2 threads
+Average Duration for zoom_in_test_mixed: 12333 ms
+Average Duration for zoom_in_test_all_white: 116 ms
+Average Duration for zoom_in_test_all_black: 65603 ms
+Average Duration for temp_zoom_in_mine: 33883 ms
+Parallel version with 4 threads
+Average Duration for zoom_in_test_mixed: 6363 ms
+Average Duration for zoom_in_test_all_white: 70 ms
+Average Duration for zoom_in_test_all_black: 33984 ms
+Average Duration for temp_zoom_in_mine: 17336 ms
+Parallel version with 8 threads
+Average Duration for zoom_in_test_mixed: 3184 ms
+Average Duration for zoom_in_test_all_white: 39 ms
+Average Duration for zoom_in_test_all_black: 17184 ms
+Average Duration for temp_zoom_in_mine: 8747 ms
+Parallel version with 16 threads
+Average Duration for zoom_in_test_mixed: 1655 ms
+Average Duration for zoom_in_test_all_white: 20 ms
+Average Duration for zoom_in_test_all_black: 8852 ms
+Average Duration for temp_zoom_in_mine: 4539 ms
+Parallel version with 32 threads
+Average Duration for zoom_in_test_mixed: 1465 ms
+Average Duration for zoom_in_test_all_white: 157 ms
+Average Duration for zoom_in_test_all_black: 6946 ms
+Average Duration for temp_zoom_in_mine: 3850 ms
+===============================================================================
+                Running file mandelbrot/cmp_files/mandelbrot_dynamic3
+===============================================================================
+Parallel version with 1 threads
+Average Duration for zoom_in_test_mixed: 23554 ms
+Average Duration for zoom_in_test_all_white: 142 ms
+Average Duration for zoom_in_test_all_black: 126467 ms
+Average Duration for temp_zoom_in_mine: 64777 ms
+Parallel version with 2 threads
+Average Duration for zoom_in_test_mixed: 12115 ms
+Average Duration for zoom_in_test_all_white: 87 ms
+Average Duration for zoom_in_test_all_black: 65596 ms
+Average Duration for temp_zoom_in_mine: 33650 ms
+Parallel version with 4 threads
+Average Duration for zoom_in_test_mixed: 6297 ms
+Average Duration for zoom_in_test_all_white: 46 ms
+Average Duration for zoom_in_test_all_black: 33992 ms
+Average Duration for temp_zoom_in_mine: 17304 ms
+Parallel version with 8 threads
+Average Duration for zoom_in_test_mixed: 3173 ms
+Average Duration for zoom_in_test_all_white: 23 ms
+Average Duration for zoom_in_test_all_black: 17045 ms
+Average Duration for temp_zoom_in_mine: 8721 ms
+Parallel version with 16 threads
+Average Duration for zoom_in_test_mixed: 1658 ms
+Average Duration for zoom_in_test_all_white: 14 ms
+Average Duration for zoom_in_test_all_black: 8963 ms
+Average Duration for temp_zoom_in_mine: 4556 ms
+Parallel version with 32 threads
+Average Duration for zoom_in_test_mixed: 1375 ms
+Average Duration for zoom_in_test_all_white: 158 ms
+Average Duration for zoom_in_test_all_black: 7084 ms
+Average Duration for temp_zoom_in_mine: 3936 ms

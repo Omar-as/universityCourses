@@ -1,0 +1,19 @@
+h := env_var("MONGODB_HOME")
+p := env_var("MONGODB_PORT")
+
+
+mongo-init:
+  #!/usr/bin/env bash
+  set -euxo pipefail
+  if [ ! -d "$MONGODB_HOME" ]; then
+    mkdir -p "$MONGODB_HOME"
+  fi
+
+mongo-serve *ARGS:
+  mongod --dbpath {{h}} --port {{p}} {{ARGS}}
+
+mongo *ARGS:
+  mongosh --port {{p}} {{ARGS}}
+
+mongo-import *ARGS:
+  mongoimport --db test --collection zipcodes --file {{ARGS}}

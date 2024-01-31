@@ -1,0 +1,7 @@
+# Direnv Cache
+.direnv/
+
+# Local MySQL Directory
+mysql
+
+**/__pycache__

@@ -1,0 +1,51 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 2060409
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 33554432
+open files                      (-n) 65535
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Loading GCC 11...
+
+Running Job...!
+===============================================================================
+Running compiled binary...
+make: Entering directory `/scratch/users/oasaad20/COMP429-Project-1/sudoku'
+gcc -o sudoku_solver_a sudoku_solver_a.c -fopenmp -lm
+gcc -o sudoku_solver_b sudoku_solver_b.c -fopenmp -lm
+gcc -o sudoku_solver_c sudoku_solver_c.c -fopenmp -lm
+make: Leaving directory `/scratch/users/oasaad20/COMP429-Project-1/sudoku'
+Parallel version with 1 threads
+Average Duration for sudoku_part_a: 138.854 s
+Average Duration for sudoku_part_b: 124.58 s
+Average Duration for sudoku_part_c: 0.724 s
+Parallel version with 2 threads
+Average Duration for sudoku_part_a: 70.918 s
+Average Duration for sudoku_part_b: 122.578 s
+Average Duration for sudoku_part_c: 0.796 s
+Parallel version with 4 threads
+Average Duration for sudoku_part_a: 36.176 s
+Average Duration for sudoku_part_b: 59.344 s
+Average Duration for sudoku_part_c: 0.786 s
+Parallel version with 8 threads
+Average Duration for sudoku_part_a: 19.444 s
+Average Duration for sudoku_part_b: 27.122 s
+Average Duration for sudoku_part_c: 0.768 s
+Parallel version with 16 threads
+Average Duration for sudoku_part_a: 11.356 s
+Average Duration for sudoku_part_b: 12.442 s
+Average Duration for sudoku_part_c: 0.802 s
+Parallel version with 32 threads
+Average Duration for sudoku_part_a: 11.538 s
+Average Duration for sudoku_part_b: 7.032 s
+Average Duration for sudoku_part_c: 0.8 s
