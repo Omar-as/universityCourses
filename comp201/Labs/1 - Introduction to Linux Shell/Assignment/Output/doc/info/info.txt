@@ -1,0 +1,11 @@
+add-apt-repository.lib
+OPENCV_interactive-calibration.lib
+OpeNcv_version.lib
+OpenCV_createsamples.lib
+opencv_annotation.lib
+opencv_visualisation.lib
+opencv_waldboost_detector.lib
+Fri Oct  8 22:24:17 +03 2021
+Ameer Taweel
+Linux linux02 3.10.0-1160.42.2.el7.x86_64 #1 SMP Tue Sep 7 14:49:57 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+./resources/koc.txt

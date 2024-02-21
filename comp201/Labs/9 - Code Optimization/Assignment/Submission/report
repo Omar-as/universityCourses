@@ -1,0 +1,51 @@
+matmul
+
+first optimization: 10-loop unrolling
+	Simple runtime 72.254220 seconds.
+	Optimized matmul runtime 61.702401 seconds.
+	Speedup : 14.604%
+
+second optimization: remove initialization nested loop
+	Simple runtime 64.462386 seconds.
+	Optimized matmul runtime 62.420272 seconds.
+	Speedup : 3.168%
+
+These numbers don't mean anything, however. The second optimization is faster
+than the first one. We need to run the code many many times. But of course I
+won't do that because I don't have all the time in the world.
+
+after o3:
+	Simple runtime 65.214259 seconds.
+	Optimized matmul runtime 62.805919 seconds.
+	Speedup : 3.693%
+
+foo1
+
+first optimization: in-lining
+	Simple runtime 0.849310 seconds.
+	Optimized foo1 runtime 2.319600 seconds.
+	Speedup : -173.116%
+
+In this case, in-lining made the code slower, and is bad for readability.
+
+second optimization: take constant expression out of loop
+	Simple runtime 0.846981 seconds.
+	Optimized foo1 runtime 1.750517 seconds.
+	Speedup : -106.677%
+
+This optimization made the code faster, but the macro thing still slows it down.
+
+third optimization: take constant expression out of loop but no macro thing
+	Simple runtime 0.832546 seconds.
+	Optimized foo1 runtime 0.307242 seconds.
+	Speedup : 63.096%
+
+after o3: with macro
+	Simple runtime 0.847815 seconds.
+	Optimized foo1 runtime 1.804064 seconds.
+	Speedup : -112.790%
+
+after o3: without macro
+	Simple runtime 0.841408 seconds.
+	Optimized foo1 runtime 0.307095 seconds.
+	Speedup : 63.502%

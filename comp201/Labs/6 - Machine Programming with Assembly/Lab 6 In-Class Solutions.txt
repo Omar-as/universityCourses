@@ -1,0 +1,116 @@
+
+######################EXAMPLE_1##################
+						#
+if (al > bl) AND (bl > cl)			#
+X = 1;						#
+						#
+#################################################
+
+
+
+######################EXAMPLE_2##################
+						#
+ if(x <= 10)					#
+ {						#
+   do						#
+   {						#
+     x++;					#
+   } while(x <= 10)				#
+ }						#
+						#
+#################################################
+
+
+
+######################EXAMPLE_3##################
+						#
+#include<stdio.h>				#
+int main(){ 					#
+    int i;   					#
+for(i=0;i!=100;i++) {				#
+  score[i]=0;					#
+}						#
+    return 0;					#
+}						#
+						#
+#################################################
+
+
+
+######################EXAMPLE_4##################
+						#
+current		previous	eax	  edx	#
+-------		--------	---	  ---	#
+0		0		1		#
+1		0		1	  0	#
+1		1		1	  1	#
+2		1		2	  1	#
+3		2		3	  2	#
+5		3		5	  3	#
+						#
+-*Fibonacci Sequence*-				#
+						#
+#################################################
+
+ 
+
+######################EXAMPLE_5##################
+						#
+int weirdProduct(int num1) {			#
+    int x;					#
+    int y;					#
+    x = num1 + 1;				#
+    if (num1 > 2){				#
+        y = num1 - 1;				#
+    }						#
+    int z = x*y;				#
+    return z;					#
+}						#
+						#
+#################################################
+
+
+
+######################EXAMPLE_6##################
+						#
+mov 	cl, 1					#
+mov 	ax, X					#
+cmp 	ax, Y					#
+jl 	IsTrue					#
+mov 	cl, 0					#
+IsTrue: 					#
+	mov 	ax, Z				#
+	cmp 	ax, T				#
+	jg	AndTrue				#
+	mov 	cl, 0				#
+AndTrue: 					#
+	mov 	al, A				#
+	cmp 	al, B				#
+	je 	OrFalse				#
+	mov 	cl, 1				#
+OrFalse:					#
+ 	cmp 	cl, 1				#
+	jne 	SkipStmt1			#
+	<Code for stmt1 goes here>		#
+SkipStmt1:					#
+						#
+#################################################
+
+
+
+######################EXAMPLE_7##########################################
+									#
+MOV	CX,5			:set up a loop counter			#
+MOV	BX,OFFSET DATA		:BX points to GRADE data		#
+SUB	AL,AL			:AL holds highest grade found so far	#
+AGAIN:									#
+CMP	AL,[BX]			:compare next grade to highest		#
+JA	NEXT			:jump if AL still highest		#
+MOVE	AL,[BX]			:else AL holds new highest		#
+NEXT:									#
+INC	BX			:point to next grade			#
+LOOP	AGAIN			:continue search			#
+MOV	DL,AL								#
+									#
+#########################################################################
+

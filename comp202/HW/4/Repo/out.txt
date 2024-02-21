@@ -1,0 +1,1224 @@
+Length: 10
+---
+
+
+  Distribution: Uniform
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+  Distribution: Normal
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+Length: 100
+---
+
+
+  Distribution: Uniform
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+  Distribution: Normal
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+Length: 1000
+---
+
+
+  Distribution: Uniform
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+  Distribution: Normal
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+Length: 10000
+---
+
+
+  Distribution: Uniform
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        10
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        10
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        11
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        10
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        0
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+  Distribution: Normal
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        15
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        14
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        15
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        14
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        3
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        3
+        ---
+
+
+        Algorithm: HeapSort
+        0
+        ---
+
+
+Length: 100000
+---
+
+
+  Distribution: Uniform
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        1099
+        ---
+
+
+        Algorithm: HeapSort
+        12
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        1085
+        ---
+
+
+        Algorithm: HeapSort
+        14
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        1096
+        ---
+
+
+        Algorithm: HeapSort
+        14
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        1095
+        ---
+
+
+        Algorithm: HeapSort
+        13
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        45
+        ---
+
+
+        Algorithm: HeapSort
+        1
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        83
+        ---
+
+
+        Algorithm: HeapSort
+        2
+        ---
+
+
+  Distribution: Normal
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        1531
+        ---
+
+
+        Algorithm: HeapSort
+        25
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        1509
+        ---
+
+
+        Algorithm: HeapSort
+        25
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        1530
+        ---
+
+
+        Algorithm: HeapSort
+        25
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        1507
+        ---
+
+
+        Algorithm: HeapSort
+        25
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        377
+        ---
+
+
+        Algorithm: HeapSort
+        12
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        383
+        ---
+
+
+        Algorithm: HeapSort
+        11
+        ---
+
+
+Length: 1000000
+---
+
+
+  Distribution: Uniform
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        119454
+        ---
+
+
+        Algorithm: HeapSort
+        228
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        119369
+        ---
+
+
+        Algorithm: HeapSort
+        245
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        118425
+        ---
+
+
+        Algorithm: HeapSort
+        254
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        119745
+        ---
+
+
+        Algorithm: HeapSort
+        243
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        4863
+        ---
+
+
+        Algorithm: HeapSort
+        33
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        8912
+        ---
+
+
+        Algorithm: HeapSort
+        42
+        ---
+
+
+  Distribution: Normal
+  ---
+
+
+    Mode: SORT
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        163483
+        ---
+
+
+        Algorithm: HeapSort
+        630
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        167219
+        ---
+
+
+        Algorithm: HeapSort
+        656
+        ---
+
+
+    Mode: TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        167451
+        ---
+
+
+        Algorithm: HeapSort
+        638
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        164736
+        ---
+
+
+        Algorithm: HeapSort
+        637
+        ---
+
+
+    Mode: FAST TOP-K
+    ---
+
+
+      Direction: ASC
+      ---
+
+
+        Algorithm: InsertionSort
+        40052
+        ---
+
+
+        Algorithm: HeapSort
+        242
+        ---
+
+
+      Direction: DESC
+      ---
+
+
+        Algorithm: InsertionSort
+        39826
+        ---
+
+
+        Algorithm: HeapSort
+        248
+        ---
+
+

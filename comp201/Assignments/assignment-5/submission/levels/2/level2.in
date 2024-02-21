@@ -1,0 +1,9 @@
+bf bd 0e 56 11 68 4c 19 /* start injected code */
+40 00 c3                /* end injected code */
+         34 35 36 37 38 /* start dummy input */
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38 /* end dummy input */
+d8 e5 61 55 00 00 00 00 /* return value of injected code */
